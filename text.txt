@@ -1,0 +1,59 @@
+hello:Hi there! How can I assist you today?
+password:If you need to reset your password, please follow the instructions on the support page.
+report:For issues with report submissions, make sure you have filled all required fields.
+account:To check your account balance, follow these steps:
+- Log in to your **account**.
+- Navigate to the **Balance** section.
+- View your current balance.
+
+change email:To change your email address, please follow these steps:
+- Log in to your **account**.
+- Go to **Settings** > **Profile**.
+- Select **Edit Email** and enter your new email address.
+- Save your changes.
+
+update profile picture:To update your profile picture, follow these steps:
+- Log in to your **account**.
+- Navigate to **Profile** settings.
+- Choose the option to **Upload** a new picture.
+- Save your changes.
+
+billing information:To update your billing information, follow these steps:
+- Log in to your **account**.
+- Go to **Billing** > **Payment Settings**.
+- Update your information as needed.
+- Save your changes.
+
+subscription cancellation:To cancel your subscription, please follow these steps:
+- Log in to your **account**.
+- Navigate to **Subscription** settings.
+- Select **Cancel Subscription** and follow the prompts.
+- Confirm the cancellation.
+
+order status:To check your order status, please follow these steps:
+- Log in to your **account**.
+- Go to **Orders** > **Order History**.
+- Find your order and view its status.
+
+refund request:To request a refund, follow these steps:
+- Log in to your **account**.
+- Navigate to **Refunds** > **Request Refund**.
+- Fill out the form with required details.
+- Submit your request.
+
+update password:To update your password, please follow these steps:
+- Log in to your **account**.
+- Go to **Security** > **Password** settings.
+- Enter your current password and set a new one.
+- Save your changes.
+
+privacy settings:To adjust your privacy settings, follow these steps:
+- Log in to your **account**.
+- Navigate to **Privacy** settings.
+- Customize your settings as desired.
+- Save your changes.
+
+contact support:For further assistance, please contact our support team at support@example.com.
+
+...
+

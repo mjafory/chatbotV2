@@ -1,0 +1,281 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+.chat-container, .chat-box::-webkit-scrollbar {
+    display: scroll;
+  }
+
+.chat-container, .chat-box {
+    -ms-overflow-style: scroll;  /* IE and Edge */
+    scrollbar-width: scroll;  /* Firefox */
+  }
+  
+
+.chat-container {
+    max-width: 450px;
+    height: 90vh;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    overflow-x: scroll;
+}
+
+#title {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 10px;
+    display:none;
+}
+
+#title2 {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 8px 8px 0 0;
+    position: -webkit-sticky;
+}
+
+
+.chat-box {
+    flex-grow: 1;
+    padding: 20px;
+    overflow: scroll;
+    border-bottom: 1px solid #ddd;
+}
+
+.input-box {
+    display: flex;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 0 8px;
+    outline: none;
+    text-transform: capitalize;
+}
+
+#send-button {
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 0 0 8px 0;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#send-button:hover {
+    background-color: #7e0808;
+}
+
+
+b {
+    font-weight: bold;
+    /* Add any other styles you want for bold text */
+    color: #fefe00; /* Example color */
+  }
+
+b a{
+    color: white;
+    text-decoration: underline;
+}
+  
+
+.message {
+    margin: 10px;
+    text-align: right; 
+
+}
+
+.✉️ {
+    color: white;
+    background-color: rgb(92, 6, 50);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: right; 
+    text-transform: capitalize;
+}
+
+
+.👤 {
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(44 88 170);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* Add these styles to your styles.css */
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-list {
+    /* position: absolute;
+    top: 00%;
+    left: 0; */
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    z-index: 1000;
+    text-align: left;
+    text-transform: capitalize;
+
+}
+
+.dropdown-list li {
+    padding: 8px 12px;
+    cursor:pointer;
+    
+}
+
+.dropdown-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.clear-chat-button {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+#top-bar {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    background-image: url(waveline.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 10px;
+    margin: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-bar-item {
+    padding: 4px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 5px;
+    color: #ddd;
+    font-size: 12px;
+    background-color: rgb(44, 44, 199);
+    opacity: 0;
+    border-bottom: 1px solid #ccc;
+    animation: fadeIn 0.3s ease-in-out 2s forwards; 
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.top-bar-item:hover {
+    background-color: #9c1313;
+}
+
+/* Button to open the modal */
+#open-suggested-questions-btn {
+    font-size: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border: none;
+    border-radius: 100%;
+    transition: 2s;
+  /* Ensure button appears above modal */
+}
+
+#open-suggested-questions-btn:hover {
+    font-size: 50px;
+    transition: 1s;
+}
+
+/* Modal container */
+.modal {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    display: none; /* Hidden by default */
+    height: auto;
+    overflow: scroll;
+    transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */
+}
+
+/* Modal content */
+.modal-content {
+    margin: 0;
+    padding: 0px;
+    /* border: 1px solid #888; */
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    opacity: 0; /* Hidden initially */
+    transform: translateY(100%); /* Start off-screen */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transitions */
+}
+
+/* Close button */
+.close-btn {
+    position: relative;
+    top: 40px;
+    right: -20px;
+    float: right;
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 30px;
+    color: #f1e8e8;
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+/* Hover state for close button */
+.close-btn:hover,
+.close-btn:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Animation when modal is opened */
+.modal.open {
+    display: block;
+}
+
+.modal.open .modal-content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+

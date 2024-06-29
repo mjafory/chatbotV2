@@ -1,0 +1,73 @@
+{
+  "hello": ["<b>Hi there!</b> How can I assist you today?"],
+  "password": ["<b>If you need to <a href='https://example.com/reset-password'>reset your password,</a></b> please follow the instructions on the support page."],
+  "report": ["<b>For issues with report submissions,</b> make sure you have filled all required fields."],
+  "account": [
+    "<b>To check your <a href='https://example.com/account-balance'>account balance,</a></b> follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Navigate to the <b>Balance</b> section.",
+    "- View your current balance."
+  ],
+  "change email": [
+    "<b>To change your email address,</b> please follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Go to <b>Settings</b> > <b>Profile</b>.",
+    "- Select <b>Edit Email</b> and enter your new email address.",
+    "- Save your changes."
+  ],
+  "update profile picture": [
+    "<b>To update your profile picture,</b> follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Navigate to <b>Profile</b> settings.",
+    "- Choose the option to <b>Upload</b> a new picture.",
+    "- Save your changes."
+  ],
+  "billing information": [
+    "<b>To update your billing information,</b> follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Go to <b>Billing</b> > <b>Payment Settings</b>.",
+    "- Update your information as needed.",
+    "- Save your changes."
+  ],
+  "subscription cancellation": [
+    "<b>To cancel your subscription,</b> please follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Navigate to <b>Subscription</b> settings.",
+    "- Select <b>Cancel Subscription</b> and follow the prompts.",
+    "- Confirm the cancellation."
+  ],
+  "order status": [
+    "<b>To check your order status,</b> please follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Go to <b>Orders</b> > <b>Order History</b>.",
+    "- Find your order and view its status."
+  ],
+  "order status2": [
+    "<b>To check your order status,</b> please follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Go to <b>Orders</b> > <b>Order History</b>.",
+    "- Find your order and view its status."
+  ],
+  "refund request": [
+    "<b>To request a refund,</b> follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Navigate to <b>Refunds</b> > <b>Request Refund</b>.",
+    "- Fill out the form with required details.",
+    "- Submit your request."
+  ],
+  "update password": [
+    "<b>To update your password,</b> please follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Go to <b>Security</b> > <b>Password</b> settings.",
+    "- Enter your current password and set a new one.",
+    "- Save your changes."
+  ],
+  "privacy settings": [
+    "<b>To adjust your privacy settings,</b> follow these steps:",
+    "- <b>Log in</b> to your <b>account</b>.",
+    "- Navigate to <b>Privacy</b> settings.",
+    "- Customize your settings as desired.",
+    "- Save your changes."
+  ],
+  "contact support": ["<b>For further assistance,</b> please contact our support team at <a href='mailto:support@example.com' style='color:white;'>support@example.com</a>."]
+}

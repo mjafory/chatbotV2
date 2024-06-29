@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<button id="open-suggested-questions-btn">💬</button>
+<div id="suggested-questions-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeSuggestedQuestionsModal()">X</span>
+        <div class="chat-container">
+            <div id="title">Chatbot V2</div>
+            <div id="title2">Chatbot V2</div>
+            <div id="top-bar">
+                <span class="top-bar-item" onclick="selectFromTopBar('billing information')">Billing informationt</span>
+                <span class="top-bar-item" onclick="selectFromTopBar('Update Profile Picture')">Update Profile Picture</span>
+                <span class="top-bar-item" onclick="selectFromTopBar('Contact Support')">Contact Support</span>
+                <span class="top-bar-item" onclick="selectFromTopBar('Privacy Settings')">Privacy Settings </span>
+            </div>
+            <div class="chat-box" id="chat-box"></div>
+            <div class="input-box">
+                <input type="text" id="user-input" placeholder="Type a message...">
+                <button id="send-button">⤴️</button>
+                <button onclick="clearChat()" class="clear-chat-button">✂️</button>
+            </div>
+            <div id="dropdown-container" class="dropdown-container">
+                <ul id="dropdown-list" class="dropdown-list"></ul>
+            </div>
+        </div>
+    </div>
+</div>    
+<script src="script.js"></script>
+</body>
+</html>
