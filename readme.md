@@ -2,6 +2,10 @@
 
 This project is a chatbot interface developed using HTML, CSS, and JavaScript. The chatbot fetches responses from a `responses.json` file based on user input, displays relevant responses, and simulates a conversation interface. It also includes features like saving chat history to localStorage, handling user input events, and displaying matching titles in a dropdown list.
 
+# Diagram
+
+ <img src="digram.png" alt="Demo" width="" height="">
+
 ## Features
 
 - **Dynamic Responses**: Fetches and displays responses from `responses.json` based on user input.
