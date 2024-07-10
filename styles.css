@@ -250,14 +250,14 @@ b a{
 
 /* Close button */
 .close-btn {
-    position: relative;
-    top: 40px;
-    right: -20px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
     float: right;
     z-index: 1000;
     cursor: pointer;
     font-size: 30px;
-    color: #f1e8e8;
+    color: #ffffff;
     transition: color 0.3s ease-in-out; /* Smooth color transition */
 }
 
